@@ -1,0 +1,66 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in;
+}
+body, 
+#root{
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+}
+.loader{
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body.dark-theme {
+    background-color: #0e0e0e;
+    color: #fff;
+}
+
+.dark-theme .navbar-container,
+.dark-theme .menubar-container {
+    background-color: #141414;
+}
+
+.dark-theme .search-bar-container {
+    border-color: #444;
+}
+
+.dark-theme .search-input {
+    background-color: #181818;
+    color: #fff;
+}
+
+.dark-theme .search-icon {
+    background-color: #313131;
+    color: #fff;
+}
+
+.dark-theme .home-video-name,
+.dark-theme .trending-video-name,
+.dark-theme .game-video-name,
+.dark-theme .saved-video-name,
+.dark-theme .trending-banner-title,
+.dark-theme .menu-item-text,
+.dark-theme .gaming-banner-title,
+.dark-theme .saved-videos-banner-title,
+.dark-theme button,
+.dark-theme .contact-us-title,
+.dark-theme .contact-us-text{
+    color: #fff !important;
+}
+
+.dark-theme .home-video-channel-name,
+.dark-theme .trending-video-channel-name,
+.dark-theme .game-video-views,
+.dark-theme .saved-video-channel-name {
+    color: #909090;
+}
+
+.dark-theme .popup-text ,
+.dark-theme .banner-btn {
+    color: #000 !important;
+}

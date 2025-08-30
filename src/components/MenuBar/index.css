@@ -1,0 +1,115 @@
+.menubar-container{
+    display: flex;
+    width: 100%;
+    background-color: #f1f5f9;
+    padding: 0.75rem;
+    position: fixed;
+    bottom: 0;
+}
+.menu-item a{
+    text-decoration: none;
+}
+.menu-item a:active{
+    color: red;
+}
+
+@media screen and (min-width:768px) {
+    .menubar-container{
+        padding: 1rem;
+        margin: 50px 0;
+        padding: 1rem;
+        width: 225px;
+        height:95vh;
+        bottom: auto;
+        left:0;
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+}
+.menu-items{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width:768px) {
+    .menu-items{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+}
+
+.menu-item-text{
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .menu-item-text{
+        display: inline;
+        text-align: center;
+        padding-left: 1rem;
+        font-size:  0.9rem;
+    }
+    
+}
+
+.menu-item button{
+    border: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+.menu-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-us{
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .contact-us{
+        display: block;
+    }
+    .contact-us-title{
+        font-size: 1.5rem;
+        color: #222;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        font-weight: 600;
+    }
+
+    .contact-us-links{
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+        margin: 1rem 0;
+
+    }
+    .contact-us-link {
+        width: 27px;
+        height: 27px;
+        border: 50%;
+        cursor: pointer;
+    }
+    .contact-us-link img{
+        width: 100%;
+    }
+    .contact-us-text{
+        color: #222;
+        font-size: 17px;
+        margin: 10px 0;
+        line-height: 1.3;
+    }
+}
+
+

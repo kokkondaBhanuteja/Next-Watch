@@ -1,0 +1,28 @@
+.not-found-view{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align:center;
+}
+@media screen and (min-width:768px) {
+    .not-found-image{
+        width: 400px !important;
+    }
+}
+.not-found-image{
+    margin-top: 70px;
+    width: 300px;
+}
+.not-found-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #111;
+}
+.not-found-text{
+    color: #444;
+    font-size: 15px;
+}

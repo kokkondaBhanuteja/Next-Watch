@@ -1,0 +1,30 @@
+.main-content{
+    padding:1rem 0.5em;
+    overflow-y: hidden;
+}
+@media screen and (min-width:768px) {
+    .main-content{
+        margin-left:225px;
+    }
+}
+.trending-banner{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height:3rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+@media screen and (max-width:540px) {
+    .trending-banner{
+      margin-bottom: 20px;
+      margin-left: 10px;
+    }
+  }
+.trending-banner-title{
+    margin-left: 10px;
+    color:#222;
+    font-size: 25px;
+    font-weight: 600;
+}

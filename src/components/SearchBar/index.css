@@ -1,0 +1,31 @@
+.search-bar-container{
+    display: flex;
+    margin:1.5rem 0;
+    display: flex;
+    border: 1px solid rgb(144, 144, 144);
+    justify-self: center;
+    border-radius: 3px;
+    width: 90%;
+    height: 40px;
+}
+@media screen and (min-width: 768px) {
+    .search-bar-container{
+        width: 40%;
+        justify-self:flex-start;
+    }
+}
+.search-input{
+    background: none;
+    width: 100%;
+    outline: none;
+    padding: 5px;
+    border: none;
+    color: rgb(35, 31, 32);
+}
+.search-icon{
+    background-color: rgb(144, 144, 144);
+    width: 70px;
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+}

@@ -1,0 +1,133 @@
+.video-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 50px;
+  }
+  
+  .video-item-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 3px;
+  }
+  
+  .video-play-container iframe {
+    width: 100%;
+    height: 60vh;
+    border: none;
+  }
+  
+  .video-item-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+  
+  .video-item-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 8px;
+  }
+  .video-item-stats{
+    display: flex;
+    gap: 15px;
+  }
+  .video-item-stats p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .video-item-social {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    align-items: center;
+  }
+  
+  .video-item-social p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .video-item-footer {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+  
+  .video-item-channel-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .video-item-channel-details {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .video-item-channel-name {
+    font-weight: 600;
+    font-size: 15px;
+  }
+  
+  .video-item-channel-subscriber {
+    font-size: 13px;
+    color: gray;
+  }
+  
+  .vide-item-channel-description {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  
+  @media (max-width: 768px) {
+    .video-play-container iframe {
+      height: 40vh;
+    }
+    .video-item-title {
+      font-size: 18px;
+    }
+    .video-item-social {
+      gap: 10px;
+      font-size: 13px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .video-item-status {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+    }
+    .video-item-footer {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .video-item-channel-img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  .social-btn{
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+  }
+  .social-btn:active{
+    color:  #00306e;
+  }
+  

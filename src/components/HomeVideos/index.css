@@ -1,0 +1,89 @@
+.home-video a{
+  text-decoration: none;
+}
+.home-videos-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+  padding: 0 10px;
+  list-style: none;
+}
+
+.home-video-card {
+  border-radius: 3px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+
+.home-video-thumbnail img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.home-video-footer {
+  display: flex;
+  padding: 12px;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.home-video-footer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.home-video-details {
+  flex: 1;
+}
+
+.home-video-name {
+  font-size: 16px;
+  font-weight: 400;
+  margin:10px 0;
+  color: #333;
+}
+
+.home-video-channel-name {
+  font-size: 14px;
+  color: #555;
+  margin: 10px 0;
+}
+
+.home-video-stats {
+  display: flex;
+  gap: 12px;
+  font-size: 13px;
+  color: #666;
+}
+.failure-view{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.failure-view img{
+  width: 100%;
+  max-width: 400px;
+  align-self: center;
+}
+.failure-view-retry-btn{
+  background: transparent;
+  padding: 7px 15px;
+  border: 1px solid #00306e;
+  border-radius: 3px;
+  font-size: 13px;
+  color: #efefef;
+  letter-spacing: 1px;
+  background-color:#00306e;
+  cursor: pointer;
+}
