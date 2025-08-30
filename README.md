@@ -43,7 +43,7 @@ Follow these instructions to get a local copy of the project up and running.
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/nxtwatch.git
+git clone https://github.com/kokkondaBhanuteja/Next-Watch.git
 ```
 
 Navigate to the project directory:
