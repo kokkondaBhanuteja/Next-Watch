@@ -58,12 +58,6 @@ Install the dependencies:
 npm install
 ```
 
-or if you use yarn:
-
-```bash
-yarn install
-```
-
 ### Running the Application
 
 Start the development server:
